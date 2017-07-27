@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.3</TargetFramework>
+    <RootNamespace>Tireless</RootNamespace>
+    <AssemblyName>Tireless.IPTree</AssemblyName>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
+    <Authors>Marlin Brüggemann</Authors>
+    <Company>Tireless Software</Company>
+    <Description>This package contains everything you need to build up an ip blocking list. You can add IP networks or a single IP adress. This library supports any System.Net.IPAddress (IPv4, IPv6). Ultra fast performance based on an efficient binary tree. Not thread-safe in write mode.</Description>
+    <PackageProjectUrl>https://github.com/mabru47/IPTree.Net</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/mabru47/IPTree.Net</RepositoryUrl>
+    <RepositoryType>GIT</RepositoryType>
+    <PackageTags />
+  </PropertyGroup>
+
+</Project>
