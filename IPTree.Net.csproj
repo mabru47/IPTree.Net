@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard1.3</TargetFramework>
+    <TargetFrameworks>netstandard1.4;net45</TargetFrameworks>
     <RootNamespace>Tireless</RootNamespace>
     <AssemblyName>Tireless.IPTree</AssemblyName>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
@@ -13,6 +13,7 @@
     <RepositoryUrl>https://github.com/mabru47/IPTree.Net</RepositoryUrl>
     <RepositoryType>GIT</RepositoryType>
     <PackageTags />
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
 </Project>
